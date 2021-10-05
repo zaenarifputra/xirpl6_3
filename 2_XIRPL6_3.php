@@ -3,7 +3,8 @@
 <body>
 
 <?php  
-date_default_timezone_set("Asia/Jakarta") . '<br>';
+date_default_timezone_set("Asia/Jakarta"); 
+echo "<br>";
 echo date("d-m-Y H:i");
 for($i=0;$i<=5;$i++){  
 for($j=5-$i;$j>=1;$j--){  
